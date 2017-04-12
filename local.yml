@@ -12,8 +12,8 @@
     package:
      name: ansible
      state: present
- - name: install /etc/hosts
-   file:
+  - name: install /etc/hosts
+    file:
      src: file
      dest: /etc/hosts
      mode: 0644
